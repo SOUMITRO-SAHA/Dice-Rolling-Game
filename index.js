@@ -11,9 +11,9 @@ var randomImageSource2 = "images/dice"+randomNumber2+".png";
 //Assigning the Attribute to the required image src .
 
 //for Player 1.
-document.querySelectorAll(".dice img")[0].setAttribute("src",randomImmageScorce1);
+document.querySelectorAll(".dice img")[0].setAttribute("src",randomImageSource1);
 //for Player 2.
-document.querySelectorAll(".dice img")[1].setAttribute("src",randomImmageScorce2);
+document.querySelectorAll(".dice img")[1].setAttribute("src",randomImageSource2);
 
 
 //Player Wining Massage
